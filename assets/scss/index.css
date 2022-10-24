@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+header {
+  border-bottom: 2px solid white;
+}
 header #top-nav .top-navbar {
   padding: 2vw 7vw;
 }
@@ -63,5 +66,35 @@ header #top-nav .bottom-navbar .container-fluid .navbar-line .right .btn-contain
   border-radius: 8px;
 }
 header #top-nav .bottom-navbar .container-fluid .navbar-line .right .btn-container button img {
+  width: 100%;
+}
+
+main #lottery {
+  padding: 2vw 8vw;
+  background-color: #e8ecf1;
+}
+main #lottery .lottery-page .container .row .left .text h2 {
+  color: #2e3131;
+  font-size: 35px;
+  font-weight: 700;
+}
+main #lottery .lottery-page .container .row .left .text button {
+  margin-top: 0.5vw;
+  background-color: #f45369;
+  border: 1px solid #f45369;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 0.8vw 7vw;
+}
+main #lottery .lottery-page .container .row .right {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+main #lottery .lottery-page .container .row .right .img-container {
+  width: 70% Z;
+}
+main #lottery .lottery-page .container .row .right .img-container img {
   width: 100%;
 }/*# sourceMappingURL=index.css.map */
