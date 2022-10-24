@@ -66,6 +66,9 @@ header {
                     color: $text-color;
                   }
                 }
+                li:hover {
+                  border-bottom: 2px solid $hover-color;
+                }
               }
             }
           }
@@ -92,11 +95,16 @@ header {
 }
 main {
   #lottery {
-    padding: 2vw 8vw;
+    padding: 3vw 8vw;
     background-color: $default-bg-color;
+    padding-bottom: 8vw;
     .lottery-page {
       .container {
         .row {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
           .left {
             .text {
               h2 {
@@ -113,17 +121,62 @@ main {
                 font-size: 20px;
                 padding: 0.8vw 7vw;
               }
+              button:hover {
+                background-color: $hover-color;
+                border: 1px solid $hover-color;
+                transition: 0.5s;
+              }
             }
           }
           .right {
             display: flex;
             justify-content: flex-end;
-            float: right;
             .img-container {
-              width: 70%Z;
+              width: 90%;
               img {
+                float: right;
                 width: 100%;
               }
+              img:hover {
+                width: 105%;
+                transition: 0.5s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #services {
+    padding: 3vw 8vw;
+    margin-top: -6vw;
+    .choose-service {
+      padding: 2vw;
+      background-color: #f9fafb;
+      border: 1px solid #f9fafb;
+      border-radius: 8px;
+      .container {
+        .row {
+          .col {
+            .box {
+              background-color: white;
+              border: 1px solid white;
+              border-radius: 8px;
+              padding: 3vw 1.5vw;
+              box-shadow: 2px 2px 5px $default-bg-color;
+              i {
+                font-size: 35px;
+                color: $primary-color;
+              }
+              p {
+                text-align: center;
+                font-size: 18px;
+              }
+            }
+            .box:hover {
+              width: 105%;
+              height: 105%;
+              transition: 0.9s !important;
             }
           }
         }

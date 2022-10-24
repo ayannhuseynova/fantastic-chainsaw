@@ -54,6 +54,9 @@ header #top-nav .bottom-navbar .container-fluid .navbar-line .left nav ul li a {
   text-decoration: none;
   color: #2e3131;
 }
+header #top-nav .bottom-navbar .container-fluid .navbar-line .left nav ul li:hover {
+  border-bottom: 2px solid #ef3e42;
+}
 header #top-nav .bottom-navbar .container-fluid .navbar-line .right {
   padding-right: 2vw;
 }
@@ -70,8 +73,15 @@ header #top-nav .bottom-navbar .container-fluid .navbar-line .right .btn-contain
 }
 
 main #lottery {
-  padding: 2vw 8vw;
+  padding: 3vw 8vw;
   background-color: #e8ecf1;
+  padding-bottom: 8vw;
+}
+main #lottery .lottery-page .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 main #lottery .lottery-page .container .row .left .text h2 {
   color: #2e3131;
@@ -87,14 +97,53 @@ main #lottery .lottery-page .container .row .left .text button {
   font-size: 20px;
   padding: 0.8vw 7vw;
 }
+main #lottery .lottery-page .container .row .left .text button:hover {
+  background-color: #ef3e42;
+  border: 1px solid #ef3e42;
+  transition: 0.5s;
+}
 main #lottery .lottery-page .container .row .right {
   display: flex;
   justify-content: flex-end;
-  float: right;
 }
 main #lottery .lottery-page .container .row .right .img-container {
-  width: 70% Z;
+  width: 90%;
 }
 main #lottery .lottery-page .container .row .right .img-container img {
+  float: right;
   width: 100%;
+}
+main #lottery .lottery-page .container .row .right .img-container img:hover {
+  width: 105%;
+  transition: 0.5s;
+}
+main #services {
+  padding: 3vw 8vw;
+  margin-top: -6vw;
+}
+main #services .choose-service {
+  padding: 2vw;
+  background-color: #f9fafb;
+  border: 1px solid #f9fafb;
+  border-radius: 8px;
+}
+main #services .choose-service .container .row .col .box {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 3vw 1.5vw;
+  box-shadow: 2px 2px 5px #e8ecf1;
+}
+main #services .choose-service .container .row .col .box i {
+  font-size: 35px;
+  color: #f45369;
+}
+main #services .choose-service .container .row .col .box p {
+  text-align: center;
+  font-size: 18px;
+}
+main #services .choose-service .container .row .col .box:hover {
+  width: 105%;
+  height: 105%;
+  transition: 0.9s !important;
 }/*# sourceMappingURL=index.css.map */
