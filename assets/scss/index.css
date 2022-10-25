@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 * {
   font-family: "Source Sans Pro", sans-serif;
@@ -119,7 +120,7 @@ main #lottery .lottery-page .container .row .right .img-container img:hover {
 }
 main #services {
   padding: 3vw 8vw;
-  margin-top: -6vw;
+  margin-top: -10vw;
 }
 main #services .choose-service {
   padding: 2vw;
@@ -131,19 +132,146 @@ main #services .choose-service .container .row .col .box {
   background-color: white;
   border: 1px solid white;
   border-radius: 8px;
-  padding: 3vw 1.5vw;
+  padding: 1.5vw;
   box-shadow: 2px 2px 5px #e8ecf1;
 }
 main #services .choose-service .container .row .col .box i {
   font-size: 35px;
   color: #f45369;
 }
-main #services .choose-service .container .row .col .box p {
+main #services .choose-service .container .row .col .box a {
+  color: #2e3131;
+  text-decoration: none;
   text-align: center;
   font-size: 18px;
+}
+main #services .choose-service .container .row .col .box a p {
+  margin-right: 4px;
+  font-weight: 600;
 }
 main #services .choose-service .container .row .col .box:hover {
   width: 105%;
   height: 105%;
   transition: 0.9s !important;
+}
+main #card {
+  padding: 3vw 8vw;
+}
+main #card .card-info .container .row .left .card-text h4 {
+  font-size: 36px;
+  color: #2e3131;
+}
+main #card .card-info .container .row .left .card-text h4 .cashback {
+  font-weight: 600 !important;
+  padding-left: 8px;
+}
+main #card .card-info .container .row .left .card-text .card-main {
+  font-size: 18px;
+  color: #2e3131;
+}
+main #card .card-info .container .row .right {
+  display: flex;
+  justify-content: flex-end;
+}
+main #card .card-info .container .row .right .image-container {
+  width: 50%;
+}
+main #card .card-info .container .row .right .image-container img {
+  width: 100%;
+}
+main #card .card-little-info {
+  background-color: #e8ecf1;
+  margin: -8vw;
+}
+main #card .card-little-info .container {
+  padding: 2vw 4.5vw;
+  padding-top: 3vw;
+}
+main #card .card-little-info .container .row .col-8 .list-containers   .info-about-card h4 {
+  color: #f45369;
+  font-weight: 600;
+  font-size: 28px;
+}
+main #card .card-little-info .container .row .col-8 .list-containers   .info-about-card p {
+  font-size: 16px;
+  color: #2e3131;
+}
+main #card .card-little-info .container .row .col-8 .button-container {
+  margin-top: 1vw;
+}
+main #card .card-little-info .container .row .col-8 .button-container button {
+  color: white;
+  background-color: #f45369;
+  border: 1px solid #f45369;
+  border-radius: 8px;
+  padding: 0.7vw 6.5vw;
+  font-size: 24px;
+}
+main #card .card-little-info .container .row .col-8 .button-container button:hover {
+  background-color: #ef3e42;
+  border: 1px solid #ef3e42;
+  transition: 0.7s;
+}
+main #need {
+  margin-top: 8vw;
+  padding: 2vw 8vw;
+}
+main #need .need-information .container .row .left {
+  display: flex;
+  justify-content: flex-start;
+}
+main #need .need-information .container .row .left .image-container {
+  margin-left: -4vw;
+  width: 100%;
+}
+main #need .need-information .container .row .left .image-container img {
+  width: 120%;
+}
+main #need .need-information .container .row .right {
+  margin-top: -20vw;
+}
+main #need .need-information .container .row .right .card-text h4 {
+  font-size: 36px;
+  color: #2e3131;
+}
+main #need .need-information .container .row .right .card-text h4 .cashback {
+  font-weight: 600 !important;
+  padding-left: 8px;
+}
+main #need .need-information .container .row .right .card-text .card-main {
+  font-size: 18px;
+  color: #2e3131;
+}
+main #need .card-little-info {
+  background-color: #e8ecf1;
+  margin: -8vw;
+}
+main #need .card-little-info .container {
+  padding: 2vw 4.5vw;
+  margin-top: -15vw;
+}
+main #need .card-little-info .container .row .col-8 .list-containers .info-about-card h4 {
+  color: #f45369;
+  font-weight: 600;
+  font-size: 28px;
+}
+main #need .card-little-info .container .row .col-8 .list-containers .info-about-card p {
+  font-size: 16px;
+  color: #2e3131;
+}
+main #need .card-little-info .container .row .col-8 .button-container {
+  margin-top: 1vw;
+}
+main #need .card-little-info .container .row .col-8 .button-container button {
+  color: white;
+  background-color: #f45369;
+  border: 1px solid #f45369;
+  border-radius: 8px;
+  padding: 0.7vw 6.5vw;
+  font-size: 24px;
+}
+main #need .card-little-info .container .row .col-8 .button-container button:hover {
+  background-color: #ef3e42;
+  border: 1px solid #ef3e42;
+  transition: 0.7s;
 }/*# sourceMappingURL=index.css.map */

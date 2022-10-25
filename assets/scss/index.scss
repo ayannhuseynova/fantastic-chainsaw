@@ -149,7 +149,7 @@ main {
   }
   #services {
     padding: 3vw 8vw;
-    margin-top: -6vw;
+    margin-top: -10vw;
     .choose-service {
       padding: 2vw;
       background-color: #f9fafb;
@@ -162,21 +162,182 @@ main {
               background-color: white;
               border: 1px solid white;
               border-radius: 8px;
-              padding: 3vw 1.5vw;
+              padding: 1.5vw;
               box-shadow: 2px 2px 5px $default-bg-color;
               i {
                 font-size: 35px;
                 color: $primary-color;
               }
-              p {
+              a {
+                color: $text-color;
+                text-decoration: none;
                 text-align: center;
                 font-size: 18px;
+                p {
+                  margin-right: 4px;
+                  font-weight: 600;
+                }
               }
             }
             .box:hover {
               width: 105%;
               height: 105%;
               transition: 0.9s !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  #card {
+    padding: 3vw 8vw;
+    .card-info {
+      .container {
+        .row {
+          .left {
+            .card-text {
+              h4 {
+                font-size: 36px;
+                color: $text-color;
+                .cashback {
+                  font-weight: 600 !important;
+                  padding-left: 8px;
+                }
+              }
+              .card-main {
+                font-size: 18px;
+                color: $text-color;
+              }
+            }
+          }
+          .right {
+            display: flex;
+            justify-content: flex-end;
+            .image-container {
+              width: 50%;
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .card-little-info {
+      background-color: $default-bg-color;
+      margin: -8vw;
+      .container {
+        padding: 2vw 4.5vw;
+        padding-top: 3vw;
+        .row {
+          .col-8 {
+            .list-containers {
+                .info-about-card {
+                h4 {
+                  color: $primary-color;
+                  font-weight: 600;
+                  font-size: 28px;
+                }
+                p {
+                  font-size: 16px;
+                  color: $text-color;
+                }
+              }
+            }
+            .button-container {
+              margin-top: 1vw;
+              button {
+                color: white;
+                background-color: $primary-color;
+                border: 1px solid $primary-color;
+                border-radius: 8px;
+                padding: 0.7vw 6.5vw;
+                font-size: 24px;
+              }
+              button:hover {
+                background-color: $hover-color;
+                border: 1px solid $hover-color;
+                transition: 0.7s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #need {
+    margin-top: 8vw;
+    padding: 2vw 8vw;
+    .need-information {
+      .container {
+        .row {
+          .left {
+            display: flex;
+            justify-content: flex-start;
+            .image-container {
+              margin-left: -4vw;
+              width: 100%;
+              img {
+                width: 120%;
+              }
+            }
+          }
+          .right {
+            margin-top: -20vw;
+            .card-text {
+              h4 {
+                font-size: 36px;
+                color: $text-color;
+                .cashback {
+                  font-weight: 600 !important;
+                  padding-left: 8px;
+                }
+              }
+              .card-main {
+                font-size: 18px;
+                color: $text-color;
+              }
+            }
+          }
+        }
+      }
+    }
+    .card-little-info {
+      background-color: $default-bg-color;
+      margin: -8vw;
+      .container {
+        padding: 2vw 4.5vw;
+        margin-top: -15vw;
+        .row {
+          .col-8 {
+            .list-containers {
+              .info-about-card {
+                h4 {
+                  color: $primary-color;
+                  font-weight: 600;
+                  font-size: 28px;
+                }
+                p {
+                  font-size: 16px;
+                  color: $text-color;
+                }
+              }
+            }
+            .button-container {
+              margin-top: 1vw;
+              button {
+                color: white;
+                background-color: $primary-color;
+                border: 1px solid $primary-color;
+                border-radius: 8px;
+                padding: 0.7vw 6.5vw;
+                font-size: 24px;
+              }
+              button:hover {
+                background-color: $hover-color;
+                border: 1px solid $hover-color;
+                transition: 0.7s;
+              }
             }
           }
         }
